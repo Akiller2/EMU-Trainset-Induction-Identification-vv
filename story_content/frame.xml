@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" default_layout="npnxnanbnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000101" font="Lato" controllayout="npnxnanbsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Lato" controllayout="pxabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Lato" controllayout="npxnabnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Lato" controllayout="pxabnsnfns00000000100" colorscheme="npnxnanbnsnfns00000000101" string_table="npnxnanbnsnfns00000000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="EMU - Trainset Identification v" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="false">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+          <option name="logoAltText" />
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true" />
+          <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
+          <option name="playbackSpeedControl" value="false" />
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="buttonoptions">
+        <options>
+          <option name="next" value="icon" />
+          <option name="previous" value="icon" />
+          <option name="submit" value="icon" />
+        </options>
+      </optiongroup>
+      <optiongroup name="ccOptions">
+        <options>
+          <option name="font" value="Lato" />
+          <option name="size" value="100" />
+          <option name="placement" value="100" />
+          <option name="backgroundColor" value="#000000FF" />
+          <option name="color" value="#FFFFFFFF" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="false" />
+      <control name="playbackSpeedControl" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="npnxnanbnsnfns00000000101">
+      <color_group name="accessibility">
+        <group_colors>
+          <color name="focus_rect">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFF00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="focus_rect_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x002060" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="HTML">
+        <group_colors>
+          <color name="htmlpage_bg_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="preloader">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFF0000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3C3C3C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x316300" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4E4E4E" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x222222" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="scene_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_text">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90" />
+          </color>
+          <color name="selected_hover_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="notes">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bottom_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB4B4B4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="60" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x292929" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x457E13" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x3F8500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="outer_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_in_tab">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x545454" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6AA242" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x275000" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4B8A16" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB3B4B3" alpha="75" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x479901" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x366F00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="generic_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="94" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="right_shadow">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+                <color rgb="0x000000" alpha="30" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x254B00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xAFDD82" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2BC400" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2A5300" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_on_dark_background_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="brandhighlight">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="brandhighlight_secondary">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF8F8F8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="0" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x282828" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="overlay_message">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="85" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="6" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="control_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="settings">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="panel_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="35" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C7C7C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_thumb_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA2A2A2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_on">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_track_off">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="10" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="toggle_label">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBABBBA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="settings_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="panel_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x212121" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2B5500" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x428C01" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0x6C6C6C" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="40" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="volume_border_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x454545" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="npnxnanbnsnfns00000000101">
+      <string id="three_image_progress_audio">progress</string>
+      <string id="three_image_audio">audio</string>
+      <string id="three_image_camera_down">camera moved down</string>
+      <string id="three_image_camera_left">camera moved left</string>
+      <string id="three_image_camera_right">camera moved right</string>
+      <string id="three_image_camera_up">camera moved up</string>
+      <string id="three_image_interaction_free">free exploration mode</string>
+      <string id="three_image_interaction_guided">guided tour mode</string>
+      <string id="three_image_hotspot">hotspot</string>
+      <string id="progress_hour">hour</string>
+      <string id="progress_hours">hours</string>
+      <string id="three_image_instructions">Use the w, a, s, and d keys to move around the 360 degree image. Press the tab key to jump to interactive markers and hotspots.</string>
+      <string id="three_image_interaction">360 degree image interaction</string>
+      <string id="three_image_label">label</string>
+      <string id="three_image_marker">marker</string>
+      <string id="progress_minute">minute</string>
+      <string id="progress_minutes">minutes</string>
+      <string id="three_image_interaction_next">next</string>
+      <string id="three_image_pause_audio">pause audio</string>
+      <string id="three_image_pause_video">pause video</string>
+      <string id="three_image_play_audio">play audio</string>
+      <string id="three_image_play_video">play video</string>
+      <string id="three_image_interaction_prev">previous</string>
+      <string id="progress_second">second</string>
+      <string id="progress_seconds">seconds</string>
+      <string id="three_image_count_of_total">%count% of %total%</string>
+      <string id="acc_three_image_step_count_of_total">step %count% of %total%</string>
+      <string id="three_image_tooltip">tooltip</string>
+      <string id="three_image_total_items">%total% items</string>
+      <string id="three_image_total_item">%total% item</string>
+      <string id="three_image_progress_video">progress</string>
+      <string id="three_image_video">video</string>
+      <string id="three_image_video_volume">video volume</string>
+      <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
+      <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
+      <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
+      <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
+      <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
+      <string id="closed_captions">Captions</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="next">NEXT</string>
+      <string id="prev">PREV</string>
+      <string id="submit">SUBMIT</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="continue">Continue</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="action">Action</string>
+      <string id="alt_key">Alt</string>
+      <string id="ctrl_key">Ctrl</string>
+      <string id="keyboardshortcuts">Keyboard Shortcuts</string>
+      <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
+      <string id="shortcuthelp">List keyboard shortcuts</string>
+      <string id="mute_shortcut">Mute / unmute</string>
+      <string id="next_shortcut">Next</string>
+      <string id="playpause_shortcut">Play / pause</string>
+      <string id="previous_shortcut">Previous</string>
+      <string id="replay_shortcut">Replay</string>
+      <string id="shift_key">Shift</string>
+      <string id="shortcut">Shortcut</string>
+      <string id="submit_shortcut">Submit</string>
+      <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
+      <string id="closedcaptions_shortcut">Toggle captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen</string>
+      <string id="togglezoom">Toggle zoom to fit</string>
+      <string id="outline">Menu</string>
+      <string id="transcript">Notes</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="resources">Resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="close">Close</string>
+      <string id="acc_locked">locked</string>
+      <string id="acc_next">Next (Ctrl+Alt+Period)</string>
+      <string id="acc_previous">Previous (Ctrl+Alt+Comma)</string>
+      <string id="acc_search_input">search</string>
+      <string id="sidebar_toggle">Sidebar Toggle</string>
+      <string id="acc_skipnavigation">Back to top</string>
+      <string id="acc_slide_progress">slide progress</string>
+      <string id="desktop_start">Start Course</string>
+      <string id="mobile_start">Start Course</string>
+      <string id="acc_visited">visited</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="search_in">Search in:</string>
+      <string id="filter">Filter</string>
+      <string id="search">Search...</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="search_results">Search Results</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
+      <string id="acc_cc_hide">Hide captions (Ctrl+Alt+C)</string>
+      <string id="acc_cc_show">Show captions (Ctrl+Alt+C)</string>
+      <string id="acc_enter_fullscreen">Enter full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_exit_fullscreen">Exit full-screen (Ctrl+Alt+F)</string>
+      <string id="acc_mute">Mute (Ctrl+Alt+M)</string>
+      <string id="acc_next_visual">Next (Ctrl+Alt+.)</string>
+      <string id="acc_pause">Pause (Ctrl+Alt+P)</string>
+      <string id="acc_play">Play (Ctrl+Alt+P)</string>
+      <string id="acc_playback_speed">Playback speed</string>
+      <string id="acc_previous_visual">Previous (Ctrl+Alt+,)</string>
+      <string id="acc_replay">Replay (Ctrl+Alt+R)</string>
+      <string id="search_toggle">Search</string>
+      <string id="acc_settings">Settings</string>
+      <string id="acc_submit">Submit (Ctrl+Alt+S)</string>
+      <string id="acc_unmute">Unmute (Ctrl+Alt+M)</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcript</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Lato">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5hOOM4lezPY" displaytext="Untitled Scene" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5hOOM4lezPY.6kI68sd2MUy" displaytext="Landing Page" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6EFQn5uCEZb" displaytext="Learning Objectives" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5lrjcfU5BGt" displaytext="Introduction" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5t4ojpQLNSu" displaytext="Ass Landing Page" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5louDIXDbGO" displaytext="What does EMU stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5elZS8ZnA6x" displaytext="What does EMU stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6YXC8cQf7WZ" displaytext="How many trailer bogies are there in a 6 cars single unit EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5kBX65rvGc0" displaytext="How many motor bogies are there in a 6 car single unit EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6fsGxP4WORh" displaytext="Activity" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6NObgVmbqFB" displaytext="Text Entry" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5iFi7NnxQvX" displaytext="Internal Equipment" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ZLXVuzY0yN" displaytext="Cab to Cab Communication" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5Z0eqzNPIDt" displaytext="Module 3" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6QC4JKYsgWS" displaytext="Communications" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6TTxfKF58oN" displaytext="On Train Data Recorder (OTDR)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.65j2Xh4kJrd" displaytext="3.15	Train Control and Monitoring System (TCMS) " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6D3C1xXhtZV" displaytext="European Rail Traffic Management System (ERTMS)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5tn9EXkgDCt" displaytext="Closed Circuit TV System (CCTV)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6dlx5DbTt7y" displaytext="Public Information System" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5VzLM7opfAl" displaytext="Public Address System" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5Y4wq0a4eg1" displaytext="Call For Aid (CFA)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5YINISXdPPJ" displaytext="Passenger Emergency Alarm (PEA)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ehak59N2Cy" displaytext="Passenger Emergency Intercom (PEI)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6bf2ywT5vZX" displaytext="Door light indicator" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6X5SL0qKzfW" displaytext="Seats" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5Z8f12DAh43" displaytext="Lighting" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6YGP5te86jS" displaytext="Fire detection" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6jrCIclnjGS" displaytext="Internal cab door" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6R7S4CeXPpu" displaytext="Low Voltage cubicles" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.642SOV6wXJ7" displaytext="Architecture" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.66779ykrMTu" displaytext="Keys" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5eWJBRizI3B" displaytext="Master controller " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6VNvwRzXsNq" displaytext="Dead man system" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5nSkPHW2EkR" displaytext="Driver Display Unit (DDU)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6IL0dEF4qt9" displaytext="LV (Low Voltage) 1 Electrical cubicle" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6e0dKySO7ry" displaytext="Driver’s desk" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6dqHeISuPJd" displaytext="DD1" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6CSK28vsBBS" displaytext="Modules 2 Topics" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.61TahzuARyg" displaytext="Sides" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5b4cDRV4MpD" displaytext="Rear view mirrors" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5tRhUaMBTtx" displaytext="External Cab doors" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5X7qGybjFwT" displaytext="Passenger Doors" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6jXTGBsuiyC" displaytext="Lateral Displays" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6RVk4M695vA" displaytext="Gangway (Type A)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5VSN5eLCCZX" displaytext="Gangway (Type B)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5p8Dk5Yr01t" displaytext="Module 2" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5WcomsWBk1Q" displaytext="Underframe" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6S1tW8yuEKQ" displaytext="Front End &amp;amp; Rear" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.686ydFzqV12" displaytext="Cab: External lighting" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5cHicAeACxB" displaytext="Cab: Equipment to ensure visibility" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5novpEQYvX1" displaytext="Cab: Frontal Display" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5uf1B2ZjbC9" displaytext="Coupling Systems" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5qL8V5Qwytc" displaytext="High Voltage (HV) equipment and Traction" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5gzbNNVieeZ" displaytext="Medium and Low Voltage" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5XHCxbjSObO" displaytext="Air Supply Production" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6rMzA3J5Zc5" displaytext="Bogies" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6MvF5ffckl9" displaytext="Brake System" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ecwv3yhwPa" displaytext="Eurobalise Antenna and Doppler radar" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5vRDsVZxBqP" displaytext="Roof" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5nChVvl1jfj" displaytext="Heating, Ventilation and Air-Conditioning (HVAC)" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6ElvtK6dqOH" displaytext="HV &amp;amp; Patograph" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6bxQVCiSwxL" displaytext="Module 1 Topics" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6kBOCvaQbIX" displaytext="General description" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6AGlgC2ZH8y" displaytext="Trailer Cars Equipments" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6KJ2fQ9psVc" displaytext="Motorised Cars" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6jBllxTukp1" displaytext="Cars Numbering" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ob6q6ARVkp" displaytext="Completed" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6M5IEtZuBBG" displaytext="Indicate on the picture below the location of the DDU, the master controller and the Emergency Brake pushbutton " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6lG7lXiUOVx" displaytext="Mention 3 components that are found on the roof of the M1 and M2 cars." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6AfQuAsTPOY" displaytext="Name two main components of the master controller?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5yyEmYDwmiv" displaytext="A single unit trainset has a maximum of 6 coaches." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5oxNlgKqlzZ" displaytext="A Single EMU trainset has a maximum of 2 coaches." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6Pb0ey3y0Ut" displaytext="The purpose of the dead man system is to monitor the driver’s state of alertness." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6011oXVZctv" displaytext="What type of traction motors are used on the EMU train?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5VYj0xSXg3l" displaytext="The anti-climbers are used to deflect vertical load impacts away from the cab and also prevent overriding the end frame and destroying the cab. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.62LQ8Az4KHB" displaytext="What is the definition of a trailer car for the EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6WFuQpAeUKX" displaytext="Explain the function of the gangway. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6mMp2pcfQPj" displaytext="Mention 3 components that are found on the roof of the M1 and M2 cars." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6NWWTzMlfEe" displaytext="What is your understanding of the motorized car for the EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5mpvu3kCL5E" displaytext="What does HVAC stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5gWmh9Wr7fb" displaytext="Give two information displays on the frontal Display of the train" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ZdyO3xZxef" displaytext="Name the 2 different types of couplers that are provided on the EMU train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5gjrMWV4tpf" displaytext="Name three functional positions of the PEA. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6bHyMoWPWen" displaytext="Explain the main function of the pantographs." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.67qz93Dy6wF" displaytext="Where is it located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5WpHKiqorM8" displaytext="Explain the main function of the Auxiliary Converters." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5hWYl3E2lKM" displaytext="What is the main function of the batteries?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.66kMk3UoSSr" displaytext="What is the purpose of the Auxiliary Air Supply Unit? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.650lAXyNGRH" displaytext="Name 2 main components of the mechanical braking system provided on the bogie." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6EEjOY4qLzD" displaytext="Where is the PEA (Passenger Emergency Alarm) located in the saloon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5dfT0WlQ1Tx" displaytext="Name two main components of the master controller?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6nhISDUjESI" displaytext="The purpose of the dead man system is to monitor the driver’s state of alertness." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6530dzdn1WT" displaytext="Explain the purpose of the Public Address System?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6JiZVRZ3cGf" displaytext="What does DDU stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.61v5n857AxE" displaytext="How many smoke detectors are fitted in a motorized car?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6H8XJCknzzN" displaytext="What is the function of the WSP (Wheel Slide Protection)?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5jGbQh3zGyQ" displaytext="Indicate on the picture below the location of the DDU, the master controller and the Emergency Brake pushbutton " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5oczbeySOyS" displaytext="What does the abbreviation TCMS stand for?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6ieEeJ71E50" displaytext="Where are the traction boxes (or propulsion box) located? Explain its function. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.661nLOw3TPJ" displaytext="What does PEI stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6fDezuWEQgA" displaytext="Where is the isolation and earthing device located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5zDhXhFi3x5" displaytext="Name and give the location of the equipment below." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6RBun8J5XLv" displaytext="What does OTDR stand for and where is it located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6QVbvRAWw1P" displaytext="Complete the table below by dragging the correct lamp status and dropping it into the &amp;quot;Lamp Status&amp;quot; column cells. Once you are done, drag the lamp color and drop it into the &amp;quot;Lamp Color&amp;quot; column cells." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6mbfhesAVKy" displaytext="Drag the correct car name and drop it into the car, starting from the left side of the train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6L0jfkjkL7e" displaytext="Indicate the module number and the car name indicated by the following picture." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5tXa6ndSecm" displaytext="What type of traction motors are used on the EMU train?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5YKRKrc75T1" displaytext="How many antennas are on the roof of a TC from trainset 21 upwards?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6pVFrMOuHVL" displaytext="How many secondary suspension air tanks are on the TC cars from Train set 26 upwards? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.65W9OCFSeCw" displaytext="How many antennas are on the roof of M2 cars from trainset 21 upwards?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5WD9KRXlle9" displaytext="What is the difference between 1st and 2nd generation MASUs? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5YCjegzWCMW" displaytext="What does CFA stand for?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.69AiZd2Ahii" displaytext="How will the Train Driver know if the coupling of modules has been successfully completed? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5mFxIEOXSXR" displaytext="Explain the main function of the pantographs." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6BoQ1OqwRLT" displaytext="Where are the HV Boxes located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5wHHjhnaoaM" displaytext="Explain the main function of the Auxiliary Converters." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6BmdVperYfm" displaytext="What is the main function of the batteries?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6n9bf49yu27" displaytext="What is the purpose of the Auxiliary Air Supply Unit? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.60szMVRb0re" displaytext="Where is the PEA (Passenger Emergency Alarm) located in the saloon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6bBo7a0zlvv" displaytext="Explain the purpose of the Public Address System?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5q1pTbnFj4m" displaytext="What does DDU stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5e3O4lXavf2" displaytext="How many smoke detectors are fitted in a Motorized Car?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5vQ20wKudu6" displaytext="What is the function of the WSP (Wheel Slide Protection)?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6gsIy8vkKX3" displaytext="What does the abbreviation TCMS stand for?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6LwskABNohJ" displaytext="What does PEI stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5d9ij1qt4UU" displaytext="Where is the isolation and earthing device located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.601IUSaNHCc" displaytext="What does OTDR stand for and where is it located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5cavXbbesAB" displaytext="What is the difference between 1st and 2nd Generation MASUs? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ajKcgPBgl3" displaytext="How many antennas are on the roof of M2 cars from trainset 21 upwards?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6lUh3OFVB0O" displaytext="What is your understanding of the motorized car for the EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5VMqLDBTgFq" displaytext="What does HVAC stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5suFIoF9pGS" displaytext="Name the 2 different types of couplers that are provided on the EMU train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5u5VXrbJQyY" displaytext="Name two main components of the master controller?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6OMkcXwcwpp" displaytext="Where is the PEA (Passenger Emergency Alarm) located in the saloon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5pPaVn6nSiI" displaytext="Explain the purpose of the Public Address System?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5poqXPZ5njY" displaytext="What does HSCB stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.69OIlydD8oN" displaytext="How many smoke detectors are fitted in a Motorized Car?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6LlqFDqq3nc" displaytext="What is the function of the WSP (Wheel Slide Protection)?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5aZGhwEKBBb" displaytext="Where are the traction boxes (or propulsion box) located? Explain its function. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6gsMNd36GYV" displaytext="Name 2 main components of the Mechanical braking system provided on the bogie." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6413eQthGzm" displaytext="What does the abbreviation TCMS stand for?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6kXSUSnh5lq" displaytext="Where are the traction boxes (or propulsion box) located? Explain its function. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5mV6sGN7rxS" displaytext="What does PEI stand for and where is it located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6Qm9Yt9LyLp" displaytext="Where is the isolation and earthing device located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5vXEY4PYlhX" displaytext="Name and give the location of the equipment below." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ucqTwfV2Vc" displaytext="What does OTDR stand for and where is it located? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6lz49LNqCrn" displaytext="Complete the table below by dragging the correct lamp status and dropping it into the &amp;quot;Lamp Status&amp;quot; column cells. Once you are done, drag the lamp color and drop it into the &amp;quot;Lamp Color&amp;quot; column cells." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5bBrexdaErn" displaytext="Drag the correct car name and drop it into the car, starting from the left side of the train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6cKrIodtF6c" displaytext="Indicate the module number and the car name indicated by the following picture." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6j15QAooqs1" displaytext="What type of traction motors are used on the EMU train?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5l5dH3zrsMC" displaytext="How many antennas are on the roof of a TC from trainset 21 upwards?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.65k2MAlBFlp" displaytext="How many secondary suspension air tanks are on the TC cars from Train set 26 upwards? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6DacFxjNebf" displaytext="How many antennas are on the roof of M2 cars from trainset 21 upwards?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5xDTcvpYOqW" displaytext="What does EMU stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6KYxyaQYz4J" displaytext="How many trailer bogies are there in a 6 cars single unit EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6DQtBw2k9BW" displaytext="The maximum permissible speed of the trainset is 100 km/h" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6j2TheZC8Qe" displaytext="What does HVAC stand for? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5X68sEdZ6iZ" displaytext="Explain the main function of the pantographs." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5dFGYKmal3x" displaytext="Explain the main function of the Auxiliary Converters." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.634E20tD86n" displaytext="What is the main function of the batteries?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5t0zLe6HsAS" displaytext="What is the purpose of the Auxiliary Air Supply Unit? " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5sgSuGd7ynr" displaytext="Where is the AASU located?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5zxCiS0pIwZ" displaytext="Explain the function of the surge arrester." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5bGZeIOR3y1" displaytext="Mention 3 components that are found on the roof of the M1 and M2 cars." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6kA8nIAVw8m" displaytext="What is your understanding of the motorized car for the EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6LvdzxsPL2B" displaytext="Name the 2 different types of couplers that are provided on the EMU train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6iNdZPs99nK" displaytext="Name three functional positions of the PEA. " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6FQmSZxHXRZ" displaytext="Name 2 main components of the Mechanical braking system provided on the bogie." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6MMWSUYxpgP" displaytext="Give two information displays on the frontal Display of the train" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6UvqBQ85R7L" displaytext="Complete the table below by dragging the correct lamp status and dropping it into the &amp;quot;Lamp Status&amp;quot; column cells. Once you are done, drag the lamp color and drop it into the &amp;quot;Lamp Color&amp;quot; column cells." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5fcMTl9gR27" displaytext="Drag the correct car name and drop it into the car, starting from the left side of the train." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5ryJ2gTqATH" displaytext="Name and give the location of the equipment below." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5u4gQdumKAc" displaytext="Indicate the module number and the car name indicated by the following picture." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6lxdtL1mHn7" displaytext="Indicate on the picture below the location of the DDU, the master controller and the Emergency Brake pushbutton " expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6mb0Ebe9e6z" displaytext="Select 3 components that are found on the roof of M1 and M2." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5cWX2JuZvpw" displaytext="What does the Static Converter provide from the high voltage?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5e1NfYcaaC9" displaytext="Where is the location of the PEA (Passenger Emergency Alarm) in the saloon?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5z3JbMwerGN" displaytext="There are 4 motor bogies in a 6 cars single unit EMU trainset." expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.5moOGC2swnV" displaytext="How many Cab’s HVAC are there in a 6 cars single unit EMU trainset?" expand="false" type="slide" />
+            <slidelink slideid="_player.5hOOM4lezPY.6VrWZJ3daNe" displaytext="Train performance" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
